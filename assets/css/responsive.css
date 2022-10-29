@@ -1,0 +1,79 @@
+@media only screen and (max-width: 639px) {
+    #header {
+        background-image: url(../images/phone-background.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .header-text {
+        margin-top: 100%;
+        font-size: 1.6rem;
+    }
+    .header-text h1 {
+        font-size: 3rem;
+    }
+    nav .fa-solid {
+        display: block;
+        font-size: 2.5rem;
+    }
+    nav ul {
+        background-color: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        bottom: 0;
+        width: 200px;
+        height: 100vh;
+        padding-top: 5rem;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+    nav ul i {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+    .sub-title {
+        font-size: 4rem;
+    }
+    .about-col-1,
+    .about-col-2,
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+    }
+    .about-col-1 {
+        margin-bottom: 3rem;
+    }
+    .about-col-2 p {
+        font-size: 1.4rem;
+    }
+    .tab-links {
+        font-size: 1.6rem;
+        margin-right: 20px;
+    }
+
+    .service-lists,
+    .work-lists {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .service-item .service-content {
+        padding: 40px;
+    }
+
+    .service-lists .service-item,
+    .work-lists .work-item {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+} 
